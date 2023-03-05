@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: fit-content;
+}
+
+/* Calender CSS */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  background-color: #ccc;
+  font-weight: bold;
+  padding: 8px;
+  text-align: center;
+}
+
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.today {
+  background-color: #eee;
+  font-weight: bold;
+}
+
+.selected {
+  background-color: #007bff;
+  color: #fff;
+}
